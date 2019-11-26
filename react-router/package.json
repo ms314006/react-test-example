@@ -1,0 +1,52 @@
+{
+  "name": "react-test-example",
+  "version": "1.0.0",
+  "description": "Unit testing of react component, redux and router.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-cover": "jest --coverage",
+    "start": "webpack-dev-server",
+    "coverage": "jest --coverage && cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ms314006/react-test-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ms314006/react-test-example/issues"
+  },
+  "homepage": "https://github.com/ms314006/react-test-example#readme",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-jest": "^24.6.0",
+    "babel-loader": "^8.0.4",
+    "eslint": "^5.15.2",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-react": "^7.12.4",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^24.6.0",
+    "jest-dom": "^3.1.3",
+    "mini-css-extract-plugin": "^0.4.4",
+    "react-testing-library": "^7.0.0",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
