@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 const Nav = () => (
   <ul>
     <li>
-      <Link to="/">首頁</Link>
+      <Link data-testid="homeLink" to="/">首頁</Link>
     </li>
     <li>
-      <Link to="/News">最新消息</Link>
+      <Link data-testid="newsLink" to="/News">最新消息</Link>
     </li>
   </ul>
 );
