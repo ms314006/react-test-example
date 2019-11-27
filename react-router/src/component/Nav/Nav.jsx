@@ -7,7 +7,7 @@ const Nav = () => (
       <Link data-testid="homeLink" to="/">首頁</Link>
     </li>
     <li>
-      <Link data-testid="newsLink" to="/News">最新消息</Link>
+      <Link data-testid="newsLink" to="/news">最新消息</Link>
     </li>
   </ul>
 );
