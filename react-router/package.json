@@ -1,5 +1,5 @@
 {
-  "name": "react-test-example",
+  "name": "react-unit-test-example-of-router",
   "version": "1.0.0",
   "description": "Unit testing of react component, redux and router.",
   "main": "index.js",
