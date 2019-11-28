@@ -12,13 +12,13 @@ describe('<Main />', () => {
   });
 
   test('ClickNewsLink_RenderNewsPage', () => {
-    const { getByTestId } = render(
+    const { getByTestId, getByText } = render(
       <MemoryRouter initialEntries={['/']}>
         <Main />
       </MemoryRouter>,
     );
 
-    fireEvent.click(getByTestId('newsLink'));
+    fireEvent.click(getByText('最新消息'));
 
     expect(getByTestId('newsPage')).toBeInTheDocument();
   });
