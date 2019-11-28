@@ -12,10 +12,10 @@ const Counter = () => {
     <div>
       <div data-testid="count">{count}</div>
       <div>
-        <button type="button" onClick={addCount} data-testid="addBtn">
+        <button type="button" onClick={addCount}>
           ADD
         </button>
-        <button type="button" onClick={subCount} data-testid="subBtn">
+        <button type="button" onClick={subCount}>
           SUB
         </button>
       </div>

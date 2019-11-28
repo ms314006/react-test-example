@@ -12,13 +12,13 @@ describe('<Counter />', () => {
     const store = createStore(
       combineReducers({ counter: counterReducer }),
     );
-    const { getByTestId } = render(
+    const { getByTestId, getByText } = render(
       <Provider store={store}>
         <Counter />
       </Provider>,
     );
 
-    fireEvent.click(getByTestId('addBtn'));
+    fireEvent.click(getByText('ADD'));
 
     expect(getByTestId('count').textContent).toBe('1');
   });
